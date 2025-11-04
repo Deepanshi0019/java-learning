@@ -1,10 +1,18 @@
 import java.util.Scanner;
+import Encapsulation.Player;
 
+public class Main{
+    public static void main(String[] args) {
+       Player a1 = new Player();
+       a1.setAccount(124154);
+       System.out.println(a1.getAccount());
 
+       Player b = new Player();
+       b.setBalance(10000000);
+        System.out.println(b.getBalance());
 
-
-
-
+    }
+}
 
 
 
