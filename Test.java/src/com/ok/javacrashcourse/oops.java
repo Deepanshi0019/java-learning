@@ -1,19 +1,27 @@
 package com.ok.javacrashcourse;
 
-class Customer{
+class Person{
      String name;
-     int age;
-     String email;
+     String nationality;
+
+     Person(){
+
+     }
+     Person(String n, String nat){
+         name = n;
+         nationality=nat;
+     }
 }
+
+
 public class oops {
     public static void main(String[] args) {
-        Customer c1 = new Customer();
-        c1.name = "Deepanshi";
-        c1.age = 23;
-        c1.email = "deepanshi@gmail.com";
-
+        Person c1 = new Person("deepanshi","indean");
         System.out.println(c1.name);
-        System.out.println(c1.age);
-        System.out.println(c1.email);
+        System.out.println(c1.nationality);
+
+        Person c2 = new Person();
+        System.out.println(c2.name);
+        System.out.println(c2.nationality);
     }
 }
