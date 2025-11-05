@@ -1,23 +1,44 @@
-import polymorphism.Avengers;
-import polymorphism.Calculator;
-import polymorphism.IronMan;
-
 import java.util.Scanner;
 
-public class Main{
-    public static void main(String[] args) {
-        IronMan i = new IronMan();
-        Avengers a = new IronMan();
-        a.fight();
-
-    }
-}
 
 
 
 
 
-//// polymorphism
+
+
+
+
+//public class Main{
+//    public static void main(String[] args) {
+//         CouseDetails c = new CourseDetails();
+//
+//    }
+//}
+
+
+
+
+
+
+//// polymophism overinding
+//import polymorphism.Avengers;
+//import polymorphism.Calculator;
+//import polymorphism.IronMan;
+//public class Main{
+//    public static void main(String[] args) {
+//        IronMan i = new IronMan();
+//        Avengers a = new IronMan();
+//        a.fight();
+//
+//    }
+//}
+
+
+
+
+
+//// polymorphism overloding
 //public class Main {
 //    public static void main(String[] args) {
 //        Calculator cal = new Calculator();
