@@ -6,6 +6,40 @@ import java.util.Scanner;
 
 
 
+//import java.util.*;
+//import java.lang.*;
+//import java.io.*;
+//
+//public class Main
+//{
+//
+//    public static void printStar(int row,int col){
+//        if(row==0) return;
+//
+//        if(col<row){
+//           	(empty line)
+
+//            printStar(row,col+1);
+//        }else{
+//            System.out.println();
+//            printStar(row-1,0);
+//        }
+//    }
+//
+//    public static void main (String[] args) throws java.lang.Exception
+//    {
+//        Scanner sc = new Scanner(System.in);
+//        int row = sc.nextInt();
+//        int col = sc.nextInt();
+//
+//        printStar(row,col);
+//    }
+//}
+//
+
+
+
+
 
 
 
